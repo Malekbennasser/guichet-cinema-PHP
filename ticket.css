@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(226, 228, 230);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.ticketc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  list-style: none;
+  width: 50%;
+
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+.idtk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5em;
+  font-size: larger;
+  position: relative;
+  left: -4em;
+}
+.info {
+  display: flex;
+  gap: 3em;
+}

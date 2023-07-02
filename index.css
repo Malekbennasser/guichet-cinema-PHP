@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(226, 228, 230);
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.bar {
+  position: absolute;
+  top: -2%;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16em;
+  position: relative;
+  top: 5em;
+}
+
+h1 {
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cine {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: relative;
+  top: 3.5em;
+  text-align: center;
+}
+
+.theatre {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+}
+
+input {
+  border: none;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+select {
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
